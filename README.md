@@ -59,19 +59,19 @@ Exercícios Módulo 5
 7. Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
 
 8. Vamos criar um conversor de temperatura. Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
-$C = \frac{5}{9}(F-32)$
+C = \frac{5}{9}(F-32)
 
 9. Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
-$F = \frac{9}{5}C + 32$
+F = \frac{9}{5}C + 32
 
 10. Tendo como dados de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula:
-$P = 72,7h - 58$
+P = 72,7h - 58
 
 Lembrando que "algoritmo" nada mais é do que um programa, como todos os outros que você vem fazendo.
 
 11. Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
-a. Para homens: $P = 72,7h - 58$
-b. Para mulheres: $P = 62,1h - 44,7$
+a. Para homens: P = 72,7h - 58
+b. Para mulheres: P = 62,1h - 44,7
 
 12. Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês.
 Calcule o salário bruto (horas * salario por hora)
@@ -80,7 +80,7 @@ Calcule o desconto do INSS (8% do salário bruto)
 Calcule o desconto do sindicato (5% do salário bruto)
 Calcule o salário líquido (salário bruto - descontos)
 
-13. Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R\$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total. (para simplificação nesse momento, não se preocupe em arredondar a quantidade de latas a serem compradas - vamos trabalhar isso em breve)
+13. Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total. (para simplificação nesse momento, não se preocupe em arredondar a quantidade de latas a serem compradas - vamos trabalhar isso em breve)
 
 14. Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
 
