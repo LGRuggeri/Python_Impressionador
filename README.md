@@ -59,10 +59,10 @@ Exercícios Módulo 5
 7. Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
 
 8. Vamos criar um conversor de temperatura. Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
-C = \frac{5}{9}(F-32)
+C = frac{5}{9}(F-32)
 
 9. Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
-F = \frac{9}{5}C + 32
+F = frac{9}{5}C + 32
 
 10. Tendo como dados de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula:
 P = 72,7h - 58
@@ -166,20 +166,14 @@ A mensagem "Aprovado com Distinção", se a média for igual a dez.
 
 11. As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes. Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
 
-salários até R\\$ 280,00 (incluindo) : aumento de 20% 
-
-salários entre R\\$ 280,00 e R\\$ 700,00 : aumento de 15% 
-
-salários entre R\\$ 700,00 e R\\$ 1500,00 : aumento de 10% 
-
-salários de R\\$ 1500,00 em diante : aumento de 5% Após o aumento ser realizado, informe na tela: 
+salários até R$ 280,00 (incluindo) : aumento de 20% 
+salários entre R$ 280,00 e R$ 700,00 : aumento de 15% 
+salários entre R$ 700,00 e R$ 1500,00 : aumento de 10% 
+salários de R$ 1500,00 em diante : aumento de 5% Após o aumento ser realizado, informe na tela: 
 
 o salário antes do reajuste;
-
 o percentual de aumento aplicado;
-
 o valor do aumento;
-
 o novo salário, após o aumento.
 
 Obs: Não vamos nos preocupar tanto com a formatação dos números (nº de casas decimais, por exemplo, veremos isso no próximo módulo)
@@ -193,12 +187,12 @@ Salário Bruto até 2500 (inclusive) - desconto de 10%
 Salário Bruto acima de 2500 - desconto de 20%
 Imprima na tela as informações, dispostas conforme o exemplo abaixo. No exemplo o valor da hora é 5 e a quantidade de hora é 220.
 
-Salário Bruto: (5 * 220)        : R\\$ 1100,00
-(-) IR (5%)                     : R\\$   55,00
-(-) INSS ( 10%)                 : R\\$  110,00
-FGTS (11%)                      : R\\$  121,00
-Total de descontos              : R\\$  165,00
-Salário Liquido                 : R\\$  935,00
+Salário Bruto: (5 * 220)        : R$ 1100,00
+(-) IR (5%)                     : R$   55,00
+(-) INSS ( 10%)                 : R$  110,00
+FGTS (11%)                      : R$  121,00
+Total de descontos              : R$  165,00
+Salário Liquido                 : R$  935,00
 
 Obs: Não vamos nos preocupar tanto com a formatação dos números (nº de casas decimais, por exemplo, veremos isso no próximo módulo)
 
@@ -219,7 +213,7 @@ Dica para determinar se um ano é bissexto:
 - São bissextos todos os anos múltiplos de 400, p.ex.: 1600, 2000, 2400, 2800...
 - São bissextos todos os múltiplos de 4, exceto se for múltiplo de 100 mas não de 400, 
 p.ex.: 1996, 2000, 2004, 2008, 2012, 2016, 2020, 2024, 2028...
-- Não são bissextos todos os demais anos.<br>
+- Não são bissextos todos os demais anos.
 ex1: 2004 é múltiplo de 4, mas não é múltiplo de 100, então é bissexto.
 ex2: 2000 é múltiplo de 4, mas é múltiplo de 100, só que também é multiplo de 400, então é bissexto (porque todo ano múltiplo de 400 é bissexto, independente do resto).
 ex3: 1900 é múltiplo de 4, é múltiplo de 100, mas não é múltiplo de 400, então não é bissexto
@@ -234,12 +228,12 @@ A mensagem "Aprovado com Distinção", se a média for igual a 10.
 
 17. João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho. Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente. João precisa que você faça um programa que leia a variável peso (peso de peixes) e calcule o excesso. Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor da multa que João deverá pagar. Imprima os dados do programa com as mensagens adequadas.
 
-18. Faça um Programa para um caixa eletrônico. O programa deverá perguntar ao usuário a valor do saque e depois informar quantas notas de cada valor serão fornecidas. As notas disponíveis serão as de 1, 5, 10, 50 e 100 reais. O valor mínimo é de 10 reais e o máximo de 600 reais. O programa não deve se preocupar com a quantidade de notas existentes na máquina.
+18. Faça um Programa para um caixa eletrônico. O programa deverá perguntar ao usuário o valor do saque e depois informar quantas notas de cada valor serão fornecidas. As notas disponíveis serão as de 1, 5, 10, 50 e 100 reais. O valor mínimo é de 10 reais e o máximo de 600 reais. O programa não deve se preocupar com a quantidade de notas existentes na máquina.
 
 Exemplo 1: Para sacar a quantia de 256 reais, o programa fornece duas notas de 100, uma nota de 50, uma nota de 5 e uma nota de 1;
 Exemplo 2: Para sacar a quantia de 399 reais, o programa fornece três notas de 100, uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
 
-Dica1: numero // 10 vai te dar como resposta a parte inteira da divisão do número por 10.<br>
+Dica1: numero // 10 vai te dar como resposta a parte inteira da divisão do número por 10.
 Dica2: numero % 10 vai te dar o resto da divisão do número por 10.
 
 19. Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
@@ -277,21 +271,21 @@ Alcatra         R$ 5,90 por Kg          R$ 6,80 por Kg
 Picanha         R$ 6,90 por Kg          R$ 7,80 por Kg
 Para atender a todos os clientes, cada cliente poderá levar apenas um dos tipos de carne da promoção, porém não há limites para a quantidade de carne por cliente. Se compra for feita no cartão Tabajara o cliente receberá ainda um desconto de 5% sobre o total da compra. Escreva um programa que peça o tipo e a quantidade de carne comprada pelo usuário e gere um cupom fiscal, contendo as informações da compra: tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar.
 
-23. Faça um Programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 6 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R\\$ 80,00 ou em galões de 3,6 litros, que custam R\\$ 25,00.
+23. Faça um Programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 6 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00 ou em galões de 3,6 litros, que custam R$ 25,00.
 
 Informe ao usuário as quantidades de tinta a serem compradas e os respectivos preços em 3 situações.
 
-Dica: lembre dos operadores // e % mostrados em exercícios anteriores<br>
-Dica1: numero // 10 vai te dar como resposta a parte inteira da divisão do número por 10.<br>
+Dica: lembre dos operadores // e % mostrados em exercícios anteriores
+Dica1: numero // 10 vai te dar como resposta a parte inteira da divisão do número por 10.
 Dica2: numero % 10 vai te dar o resto da divisão do número por 10.
 
 1. Comprar apenas latas de 18 litros: (apenas latas inteiras)
 2. Comprar apenas galões de 3,6 litros: (apenas galoes inteiros)
 3. Misturar latas e galões, de forma que o desperdício de tinta seja menor. Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias.
 
-O custo da lata é 80/18 = 4,44 R\\$/L
+O custo da lata é 80/18 = 4,44 R$/L
 
-O custo do galão é 25/3,6 = 6,94 R\\$/L
+O custo do galão é 25/3,6 = 6,94 R$/L
 
 A lata é mais econômica, então todas as latas inteiras que pudermos usar devemos comprar em latas. Se ficar faltando alguma coisa para completar devemos avaliar se é melhor comprar latas ou galões. Exemplo:
 
