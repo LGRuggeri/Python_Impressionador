@@ -359,5 +359,110 @@ Telefone possui 7 dígitos. Vou acrescentar o digito três na frente.
 Telefone corrigido sem formatação: 34610133
 Telefone corrigido com formatação: 3461-0133
 
+# Exercícios Listas
+
+## 1. Faturamento do Melhor e do Pior Mês do Ano
+
+Qual foi o valor de vendas do melhor mês do Ano?
+E valor do pior mês do ano?
 
 
+meses = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez']
+vendas_1sem = [25000, 29000, 22200, 17750, 15870, 19900]
+vendas_2sem = [19850, 20120, 17540, 15555, 49051, 9650]
+
+## 2. Continuação
+
+Agora relacione as duas listas para printar 'O melhor mês do ano foi {} com {} vendas' e o mesmo para o pior mês do ano.
+
+Calcule também o faturamento total do Ano e quanto que o melhor mês representou do faturamento total.
+
+Obs: Para o faturamento total, pode usar a função sum(lista) que soma todos os itens de uma lista
+
+
+## 3. Crie uma lista com o top 3 valores de vendas do ano (sem fazer "no olho")
+
+Dica: o método remove retira um item da lista.
+
+# Exercícios
+
+## 1. Mudança de Carga Tributária
+
+Reformas e mudanças de cargas tributárias são bem comuns no Brasil.
+
+Digamos que você trabalhe em uma empresa de ecommerce
+
+No Brasil, o imposto sobre livros é zerado. De um ano para o outro, o governo criou um novo imposto que incide em 10% sobre o valor dos livros e agora você precisa alterar o registro dos preços dos livros da empresa para garantir que esse imposto vai ser repassado para o preço final do produto.
+
+Crie um código que recalcule o valor do livro da sua lista de produtos e ajuste na tabela.
+
+Além disso, calcule qual vai ser o impacto financeiro da criação desse imposto para a empresa (ou seja, quanto que o imposto vai aumentar de custo para a empresa)
+
+Obs: para facilitar, colocamos apenas 1 livro na lista, mas em breve vamos aprender um for que vai adaptar esse cenário para qualquer quantidade de livros na sua lista.
+
+Obs2: Seu código deve funcionar mesmo que não haja livros na lista de produtos da empresa
+
+
+produtos = ['computador', 'livro', 'tablet', 'celular', 'tv', 'ar condicionado', 'alexa', 'máquina de café', 'kindle']
+
+cada item da lista dos produtos corresponde a quantidade de vendas no mês e preço, nessa ordem
+produtos_ecommerce = [
+    [10000, 2500],
+    [50000, 40],
+    [7000, 1200],
+    [20000, 1500],
+    [5800, 1300],
+    [7200, 2500],
+    [200, 800],
+    [3300, 700],
+    [1900, 400]
+]
+
+# Exercícios For.
+
+## 1. Criando um Registro de Hóspedes
+
+Digamos que você está criando o sistema para registrar a chegada de hóspedes em um hotel. No hotel, os hóspedes podem ter quartos com 1, 2, 3 e 4 pessoas. Seu sistema deve conseguir:
+
+1. Identificar quantas pessoas o hóspede que acabou de chegar vai ter no quarto (perguntando por meio de input)
+2. De acordo com a quantidade de pessoas do hóspede, ele deve fazer um for para perguntar o cpf e o nome de cada pessoa, a fim de registrá-la no quarto (2 inputs para cada pessoa, 1 para o cpf e outro para o nome)
+3. O seu programa então deve gerar uma lista com todas as pessoas que ficarão no quarto em que cada item dessa lista é o nome da pessoa e o cpf da pessoa, assim:
+
+quarto = [
+    ['João', 'cpf:00000000000'],
+    ['Julia', 'cpf:11111111111'],
+    ['Marcus', 'cpf:22222222222'],
+    ['Maria', 'cpf:33333333333'],
+]
+
+Para simplificar, não vamos nos preocupar com possibilidades de "tentar colocar mais de 1 hóspede, digitar o cpf errado, etc. Nosso objetivo é treinar a criação de uma rotina de cadastro.
+
+## 2. Análise de Vendas
+
+Nesse exercício vamos fazer uma "análise simples" de atingimento de Meta.
+
+Temos uma lista com os vendedores e os valores de vendas e queremos identificar (printar) quais os vendedores que bateram a meta e qual foi o valor que eles venderam.
+
+meta = 10000
+vendas = [
+    ['João', 15000],
+    ['Julia', 27000],
+    ['Marcus', 9900],
+    ['Maria', 3750],
+    ['Ana', 10300],
+    ['Alon', 7870],
+]
+
+## 3. Comparação com Ano Anterior
+
+Digamos que você está analisando as vendas de produtos de um ecommerce e quer identificar quais produtos tiveram no ano de 2020 mais vendas do que no ano de 2019, para reportar isso para a diretoria.
+
+Sua resposta pode ser um print de cada produto, qual foi a venda de 2019, a venda de 2020 e o % de crescimento de 2020 para 2019.
+
+Lembrando, para calcular o % de crescimento de um produto de um ano para o outro, podemos fazer: (vendas_produto2020/vendas_produto2019 - 1)
+
+Dica: lembre do enumerate, ele pode facilitar seu "for"
+
+produtos = ['iphone', 'galaxy', 'ipad', 'tv', 'máquina de café', 'kindle', 'geladeira', 'adega', 'notebook dell', 'notebook hp', 'notebook asus', 'microsoft surface', 'webcam', 'caixa de som', 'microfone', 'câmera canon']
+vendas2019 = [558147,712350,573823,405252,718654,531580,973139,892292,422760,154753,887061,438508,237467,489705,328311,591120]
+vendas2020 = [951642,244295,26964,787604,867660,78830,710331,646016,694913,539704,324831,667179,295633,725316,644622,994303]
